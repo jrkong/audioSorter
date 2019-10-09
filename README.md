@@ -8,6 +8,10 @@ The code will automatically build the directory structure by organizing the musi
 1. If this is the first run on the machine, run `pip install -r requirements.txt` to install all requirements
 1. Run the script using `python audioSorter.py`
 
+# Features:
+- The code creates shortcuts to all the directories it creates in the target directory in the `moved-files` directory. This creates a visual paper trail of everything the script has done
+- A log is generated called `Audio Organizer.log` which logs everything the script does (can be used for debugging purposes and to trace everything the script performed)
+
 # TODO List:
 - Finalize and implement command line arguments
 - Remove assumptions
